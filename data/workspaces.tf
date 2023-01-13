@@ -86,7 +86,7 @@ locals {
       igw_name                      = "igw-eugen"
       namespace                     = "en"
     }
-        patrick = {
+    patrick = {
       name                    = "patrick"
       vpc_cidr                = ["10.5.0.0/16"]
       subnet1_cidr            = ["10.5.1.0/24"]
